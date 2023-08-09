@@ -1,0 +1,7 @@
+pluginManagement {
+  includeBuild('build-logic')
+}
+
+rootProject.name = 'java-springboot-reactive-grpc-starter'
+
+include('api', 'server')
