@@ -6,10 +6,10 @@ A starter project for practicing the development of Reactive gRPC APIs backed by
 **Features**
 
 - A simple notepad data model.
-- Integration Tests for reactive endpoints.
+- Integration Tests for reactive endpoints:
     - InProcess Server and Channel to test endpoints in isolation.
-	- [TestContainers](https://java.testcontainers.org) module for testing data storage.
-	- StepVerifier for Reactive endpoints assertions.
+	- [TestContainers](https://java.testcontainers.org) for integration testing with data storage.
+	- StepVerifier for testing Reactive code.
 
 ### Requirements
 
