@@ -1,0 +1,25 @@
+plugins {
+  id 'rbento.starter.java-api-conventions'
+}
+
+protobuf {
+  plugins {
+    grpc_java {
+      artifact = libs.protoc.gen.grpc.java.get()
+    }
+    grpc_reactor {
+      artifact =  libs.protoc.gen.grpc.reactor.get()
+    }
+  }
+  generateProtoTasks {
+    all().each { task ->
+      task.builtins {
+        java {}
+      }
+      task.plugins {
+        grpc_java {}
+        grpc_reactor {}
+      }
+    }
+  }
+}
