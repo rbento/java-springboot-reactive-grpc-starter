@@ -14,7 +14,7 @@ A starter project for practicing the development of Reactive gRPC APIs backed by
 ### Requirements
 
 - [Gradle](https://gradle.org/releases/) 8.4
-- [JDK 17](https://www.azul.com/downloads/?package=jdk#zulu) from Azul
+- [JDK 21](https://www.azul.com/downloads/?package=jdk#zulu) from Azul
 
 ### Build
 

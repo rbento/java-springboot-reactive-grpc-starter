@@ -1,27 +1,28 @@
 [versions]
 # Plugins
 errorprone = "3.1.0"
-errorprone-core = "2.20.0"
-lombok = "8.1.0"
-lognet-grpc = "5.1.4"
+errorprone-core = "2.22.0"
+lombok = "8.4"
+lognet-grpc = "5.1.5"
+palantir-java-format = "2.38.0"
 protobuf = "0.9.4"
-spotless = "6.19.0"
-springboot = "3.1.2"
-spring-dependency = "1.1.2"
+spotless = "6.22.0"
+springboot = "3.1.4"
+spring-dependency = "1.1.3"
 
 # Libraries
 assertj = "3.24.2"
 blockhound = "1.0.8.RELEASE"
 commons-lang3 = "3.12.0"
-grpc = "1.57.0"
+grpc = "1.58.0"
 junit-jupiter = "5.9.3"
 javax-annotation = "1.3.2"
-projectreactor = "2022.0.9"
+projectreactor = "2022.0.11"
 reactor-grpc = "1.2.4"
 testcontainers = "1.18.3"
 
 # Artifacts
-protoc = "3.22.3"
+protoc = "3.24.4"
 
 [libraries]
 # Gradle Plugin Classpath
